@@ -1,0 +1,7 @@
+{
+  "name": "CIPTA Learning — MIN 1 Paser",
+  "description": "Platform pembelajaran digital Kelas VI/Fase C terintegrasi CIPTA Learning, Kurikulum Berbasis Cinta Kemenag, Pembelajaran Mendalam, dan Insersi Ekoteologi di MIN 1 Paser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

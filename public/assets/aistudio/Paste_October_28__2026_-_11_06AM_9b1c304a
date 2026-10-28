@@ -1,0 +1,1091 @@
+# MASTER PROMPT FINAL
+# PENGEMBANGAN APLIKASI CIPTA LEARNING MIN 1 PASER
+## Integrasi CIPTA Learning, Kurikulum Berbasis Cinta Kemenag, Pembelajaran Mendalam, dan Ekoteologi
+
+## BAGIAN 1 — PERAN DAN MISI
+
+Bertindaklah sebagai tim profesional yang terdiri atas:
+1. Senior Full-Stack Web Developer.
+2. UI/UX Designer bidang EdTech.
+3. Ahli kurikulum Madrasah Ibtidaiyah.
+4. Instructional Designer.
+5. Ahli implementasi Kurikulum Berbasis Cinta.
+6. Ahli Pembelajaran Mendalam.
+7. Pengembang pembelajaran berbasis ekoteologi.
+8. AI Engineer.
+9. Database Engineer.
+10. Security Engineer.
+11. QA Engineer.
+
+Bangun aplikasi web full-stack bernama CIPTA Learning — MIN 1 Paser.
+
+Aplikasi merupakan platform pembelajaran digital Kelas VI/Fase C yang mengintegrasikan:
+- Metode CIPTA Learning.
+- Kurikulum Berbasis Cinta (KBC) Kementerian Agama.
+- Pendekatan Pembelajaran Mendalam.
+- Insersi ekoteologi.
+- Pembelajaran berbasis kompetensi.
+- Generator perangkat ajar berbasis AI.
+- Bank soal dan generator asesmen hingga 200 soal.
+- Media interaktif dan permainan edukatif.
+- Portofolio, proyek, dan aksi nyata.
+- Analitik, laporan, dan pengelolaan kelas.
+- Budaya madrasah yang humanis dan peduli lingkungan.
+
+Aplikasi harus benar-benar berfungsi, bukan sekadar mockup atau halaman statis.
+
+Implementasikan frontend, backend, database, autentikasi, hak akses, penyimpanan, generator AI, penilaian, dan pelaporan sesuai kemampuan platform.
+
+Apabila suatu integrasi belum tersedia, jelaskan persyaratan dan implementasikan alternatif yang benar-benar berfungsi.
+
+Jangan mengklaim fitur, sumber data, integrasi, atau deployment telah berhasil sebelum diuji.
+
+---
+
+## BAGIAN 2 — IDENTITAS RESMI
+
+Nama aplikasi: CIPTA Learning.
+
+Satuan pendidikan: MIN 1 Paser.
+
+Jenjang: Madrasah Ibtidaiyah.
+
+Kelas utama: VI-C.
+
+Fase: C.
+
+Semester: Ganjil dan Genap.
+
+Tahun pelajaran awal: 2026/2027.
+
+Kepala Madrasah: Ismail, S.Ag.
+
+Pengembang Aplikasi: Dzakirul Husni, S.Pd.
+
+Bahasa: Indonesia.
+
+Zona waktu: Asia/Makassar.
+
+Tampilkan identitas tersebut pada halaman profil, dashboard, footer, dan dokumen yang sesuai.
+
+Sediakan konfigurasi untuk tahun ajaran berikutnya tanpa mengubah kode program.
+
+Jangan membuat tanda tangan, stempel, atau pengesahan resmi tanpa sumber dan kewenangan yang sah.
+
+---
+
+## BAGIAN 3 — DATA SISWA KELAS VI-C
+
+Gunakan file DATA SISWA 6-C.pdf yang dilampirkan pengguna sebagai sumber data awal.
+
+Data sumber mencakup:
+- 27 siswa.
+- 14 perempuan.
+- 13 laki-laki.
+- Nama lengkap.
+- NISN.
+- NIS lokal.
+
+Jangan mengarang atau mengganti identitas siswa.
+
+Ekstrak data dengan mempertahankan urutan, ejaan nama, dan nomor identitas sebagaimana tercantum pada dokumen. Periksa hasil ekstraksi terhadap tabel sumber sebelum mengimpor.
+
+Jika data tidak terbaca dengan yakin, tandai untuk verifikasi administrator.
+
+Buat fitur:
+- Impor CSV/XLSX.
+- Pratinjau sebelum impor.
+- Validasi data.
+- Deteksi duplikasi.
+- Laporan baris gagal.
+- Manajemen kelas.
+- Pengelolaan siswa.
+- Penetapan tahun ajaran.
+- Ekspor daftar siswa.
+- Pembuatan dan reset PIN.
+
+Simpan NISN dan NIS lokal sebagai string agar angka nol di awal tidak hilang.
+
+Jangan menjadikan NISN, NIS lokal, atau tanggal lahir sebagai PIN.
+
+Jangan menampilkan data pribadi lengkap kepada pengguna yang tidak berwenang.
+
+Jangan mengumpulkan tempat atau tanggal lahir jika tidak diperlukan oleh fitur aplikasi.
+
+---
+
+## BAGIAN 4 — HIERARKI PEDAGOGIS
+
+Tetapkan struktur berikut sebagai fondasi aplikasi:
+
+LAPISAN 1 — CIPTA LEARNING
+Metode operasional utama yang mengatur alur aktivitas pembelajaran.
+
+LAPISAN 2 — KURIKULUM BERBASIS CINTA KEMENAG
+Landasan integrasi nilai cinta, karakter, kemanusiaan, spiritualitas, toleransi, dan tanggung jawab.
+
+LAPISAN 3 — PEMBELAJARAN MENDALAM
+Pendekatan untuk memperdalam pemahaman dan kualitas pengalaman belajar.
+
+LAPISAN 4 — INSERSI EKOTEOLOGI
+Dimensi lintas mata pelajaran, kegiatan, pembiasaan, proyek, dan budaya madrasah.
+
+LAPISAN 5 — KOMPETENSI DAN AKSI NYATA
+Bukti bahwa siswa mampu memahami, menerapkan, mempraktikkan, menghasilkan karya atau solusi, melakukan aksi nyata, dan merefleksikan hasil.
+
+Kelima lapisan harus saling terhubung tetapi tidak dicampuradukkan sebagai istilah yang identik.
+
+CIPTA Learning adalah kerangka operasional rancangan MIN 1 Paser. KBC dan Pembelajaran Mendalam harus mengikuti sumber resmi masing-masing.
+
+---
+
+## BAGIAN 5 — METODE CIPTA LEARNING
+
+Gunakan lima unsur berikut.
+
+C — COMPASSION
+
+Membangun kepedulian, empati, kasih sayang, keteladanan, rasa aman, dan hubungan belajar yang humanis.
+
+Implementasi:
+- Pemantik yang dekat dengan pengalaman siswa.
+- Dialog terbuka.
+- Komunikasi yang menghargai.
+- Disiplin positif.
+- Umpan balik yang tidak mempermalukan.
+- Kerja sama dan kepedulian.
+
+I — INTERACTIVE
+
+Mengaktifkan siswa melalui:
+- Pertanyaan.
+- Diskusi.
+- Permainan edukatif.
+- Simulasi.
+- Eksperimen.
+- Tantangan.
+- Presentasi.
+- Kolaborasi.
+- Pemecahan masalah.
+
+P — PERSONALIZED
+
+Menyesuaikan dukungan dan tantangan berdasarkan:
+- Pengetahuan awal.
+- Hasil asesmen.
+- Kebutuhan belajar.
+- Respons siswa.
+- Perkembangan kompetensi.
+
+Implementasi:
+- Materi bertingkat.
+- Petunjuk tambahan.
+- Remedial.
+- Pengayaan.
+- Jalur belajar fleksibel.
+- Rekomendasi tindak lanjut yang dapat ditinjau guru.
+
+T — TECHNOLOGY
+
+Memanfaatkan teknologi digital maupun nondigital untuk:
+- Visualisasi konsep.
+- Interaksi.
+- Simulasi.
+- Asesmen.
+- Analisis.
+- Dokumentasi.
+- Kolaborasi.
+- Pelaporan.
+
+A — ACTION LEARNING
+
+Memastikan siswa menerapkan pengetahuan menjadi:
+- Keterampilan.
+- Produk atau karya.
+- Solusi.
+- Proyek.
+- Aksi nyata.
+- Refleksi atas hasil dan dampak.
+
+Jangan sekadar menampilkan kelima unsur sebagai label. Setiap unsur harus diterapkan pada aktivitas, instruksi, media, dan bukti pembelajaran.
+
+---
+
+## BAGIAN 6 — KURIKULUM BERBASIS CINTA KEMENAG
+
+Gunakan Keputusan Direktur Jenderal Pendidikan Islam Nomor 6077 Tahun 2025 tentang Panduan Kurikulum Berbasis Cinta sebagai acuan awal.
+
+Buat modul integrasi KBC menggunakan Panca Cinta berikut.
+
+1. CINTA ALLAH SWT. DAN RASUL-NYA
+   - Syukur.
+   - Keteladanan.
+   - Kasih sayang.
+   - Tanggung jawab.
+   - Penerapan nilai keagamaan yang sesuai dengan tujuan dan konteks pembelajaran.
+
+2. CINTA ILMU
+   - Rasa ingin tahu.
+   - Ketekunan.
+   - Kejujuran akademik.
+   - Berpikir kritis.
+   - Penghargaan terhadap pengetahuan dan proses belajar.
+
+3. CINTA LINGKUNGAN
+   - Menjaga kebersihan.
+   - Menghemat air dan energi.
+   - Mengurangi sampah.
+   - Merawat tanaman dan lingkungan.
+   - Mencegah perilaku merusak lingkungan.
+
+4. CINTA DIRI DAN SESAMA
+   - Menghargai diri.
+   - Empati.
+   - Gotong royong.
+   - Menghormati perbedaan.
+   - Toleransi.
+   - Komunikasi yang baik.
+   - Pencegahan perundungan.
+   - Disiplin positif.
+
+5. CINTA TANAH AIR
+   - Menghargai keberagaman.
+   - Mengenal budaya lokal.
+   - Menjaga persatuan.
+   - Mengembangkan tanggung jawab sosial.
+   - Berkontribusi pada kebaikan masyarakat.
+
+Setiap modul dapat memilih satu atau beberapa topik Panca Cinta yang relevan.
+
+Jangan memaksakan seluruh Panca Cinta hadir secara eksplisit dalam setiap pertemuan.
+
+Buat pemetaan:
+- Topik Panca Cinta.
+- Tujuan pembelajaran.
+- Materi.
+- Aktivitas.
+- Perilaku yang dapat diamati.
+- Refleksi.
+- Bukti penerapan.
+
+Gunakan pendekatan humanis, inklusif, toleran, dan tidak diskriminatif.
+
+Nilai karakter tidak boleh disimpulkan hanya dari skor akademik. Penilaian karakter harus didasarkan pada bukti perilaku relevan yang diamati secara proporsional.
+
+---
+
+## BAGIAN 7 — PEMBELAJARAN MENDALAM
+
+Gunakan kerangka Pembelajaran Mendalam yang relevan dengan panduan resmi Kemendikdasmen serta panduan implementasi Kemenag apabila tersedia.
+
+A. TIGA PRINSIP PEMBELAJARAN
+
+BERKESADARAN (MINDFUL)
+
+Siswa:
+- Mengetahui tujuan belajar.
+- Memahami manfaat belajar.
+- Mengenali pengetahuan awal.
+- Menentukan strategi belajar.
+- Memantau pemahamannya.
+- Mengetahui hal yang masih perlu diperbaiki.
+
+BERMAKNA (MEANINGFUL)
+
+Siswa:
+- Menghubungkan pengetahuan baru dengan pengalaman.
+- Menggunakan konsep untuk menyelesaikan masalah.
+- Mengaitkan materi dengan kehidupan sehari-hari.
+- Menerapkan pengetahuan lintas konteks jika relevan.
+- Menghasilkan pemahaman yang dapat dijelaskan.
+
+MENGGEMBIRAKAN (JOYFUL)
+
+Siswa:
+- Belajar dalam lingkungan aman.
+- Menghadapi tantangan yang sesuai.
+- Memiliki kesempatan mencoba dan memperbaiki kesalahan.
+- Mendapat umpan balik yang membangun.
+- Mengalami interaksi yang positif dan memotivasi.
+
+B. TIGA PENGALAMAN BELAJAR
+
+MEMAHAMI:
+Membangun pemahaman konsep, prinsip, hubungan, dan makna.
+
+MENGAPLIKASI:
+Menggunakan pemahaman untuk memecahkan masalah, praktik, eksperimen, atau proyek kontekstual.
+
+MEREFLEKSI:
+Menilai proses, hasil, strategi, kesalahan, dampak, dan rencana perbaikan.
+
+C. EMPAT KERANGKA PEMBELAJARAN
+
+1. Praktik pedagogis.
+2. Kemitraan pembelajaran.
+3. Lingkungan pembelajaran.
+4. Pemanfaatan digital.
+
+Implementasikan kerangka tersebut melalui:
+- Perencanaan guru.
+- Interaksi guru dan siswa.
+- Kerja sama antarsiswa.
+- Keterlibatan orang tua atau masyarakat jika relevan.
+- Lingkungan fisik dan digital yang aman.
+- Pemanfaatan teknologi secara bertanggung jawab.
+
+Jangan membuat Pembelajaran Mendalam menjadi satu sesi terpisah. Integrasikan prinsip dan pengalaman belajarnya di seluruh alur CIPTA Learning.
+
+---
+
+## BAGIAN 8 — INSERSI EKOTEOLOGI LINTAS MATA PELAJARAN DAN BUDAYA MADRASAH
+
+Ekoteologi diintegrasikan ke seluruh kegiatan dan budaya madrasah.
+
+Makna operasional:
+Mengembangkan kesadaran spiritual, tanggung jawab moral, dan tindakan nyata dalam merawat lingkungan sebagai bagian dari tanggung jawab manusia terhadap ciptaan.
+
+Integrasi harus kontekstual, ilmiah, sesuai usia, dan relevan dengan tujuan pembelajaran.
+
+A. INTRAKURIKULER
+
+Integrasikan pada materi dan aktivitas pembelajaran yang relevan.
+
+B. KOKURIKULER DAN PROYEK
+
+Sediakan proyek lintas mata pelajaran yang berhubungan dengan masalah lingkungan nyata.
+
+C. PEMBIASAAN DAN BUDAYA MADRASAH
+
+Sediakan dukungan untuk:
+- Pemilahan sampah.
+- Pengurangan plastik sekali pakai.
+- Hemat air.
+- Hemat energi.
+- Perawatan tanaman.
+- Kebersihan kelas.
+- Pemeliharaan fasilitas.
+- Pengamatan kondisi lingkungan.
+- Kampanye lingkungan.
+- Pembiasaan tanggung jawab bersama.
+
+D. KOLABORASI
+
+Sediakan opsi kegiatan bersama:
+- Guru.
+- Siswa.
+- Orang tua.
+- Pengelola kantin.
+- Petugas kebersihan.
+- Komite madrasah.
+- Masyarakat sekitar.
+- Mitra lingkungan yang relevan.
+
+E. BUKTI DAN EVALUASI
+
+Dokumentasikan:
+- Kondisi awal.
+- Tujuan tindakan.
+- Rencana kegiatan.
+- Data hasil pengamatan.
+- Tindakan siswa.
+- Hasil aktual.
+- Refleksi.
+- Rencana keberlanjutan.
+
+Jangan mengklaim penurunan sampah, penghematan air, atau dampak lingkungan tanpa data yang mendukung.
+
+Gunakan label data simulasi untuk data yang bukan hasil pengukuran nyata.
+
+Jangan memaksakan ekoteologi pada materi yang tidak memiliki hubungan bermakna. Jika kaitannya tidak relevan, catat alasan dan gunakan dimensi Panca Cinta lain yang sesuai.
+
+---
+
+## BAGIAN 9 — ENAM TAHAP OPERASIONAL CIPTA LEARNING
+
+Semua modul harus menggunakan enam tahap berikut.
+
+TAHAP 1: PEMANTIK
+
+Tujuan:
+Membangun koneksi antara pengalaman siswa, rasa ingin tahu, nilai cinta, dan tujuan pembelajaran.
+
+Fitur:
+- Cerita kontekstual.
+- Pertanyaan pemantik.
+- Aktivasi pengetahuan awal.
+- Refleksi singkat.
+- Identifikasi masalah.
+- Asesmen diagnostik.
+
+Integrasi:
+Compassion, KBC, dan prinsip berkesadaran.
+
+TAHAP 2: EKSPLORASI KONSEP
+
+Tujuan:
+Memahami konsep dari abstrak menuju representasi visual dan konkret.
+
+Fitur:
+- Penjelasan konsep.
+- Gambar dan diagram.
+- Contoh bertahap.
+- Model konkret.
+- Video atau simulasi jika tersedia.
+- Hubungan teori dengan konteks nyata.
+
+Integrasi:
+Technology, cinta ilmu, dan pengalaman memahami.
+
+TAHAP 3: TANTANGAN INTERAKTIF
+
+Tujuan:
+Melatih penerapan konsep dan penalaran melalui tantangan.
+
+Fitur:
+- Kuis.
+- Misi.
+- Permainan.
+- Simulasi.
+- Soal kontekstual.
+- Petunjuk.
+- Pembahasan.
+- Umpan balik.
+
+Integrasi:
+Interactive, Personalized, prinsip menggembirakan, dan pengalaman memahami menuju mengaplikasi.
+
+TAHAP 4: KOLABORASI DAN DIFERENSIASI
+
+Tujuan:
+Membangun pemahaman melalui kerja sama dan dukungan sesuai kebutuhan.
+
+Fitur:
+- LKPD.
+- Aktivitas kelompok.
+- Pembagian peran.
+- Materi bertingkat.
+- Bantuan tambahan.
+- Pengayaan.
+- Diskusi.
+- Presentasi.
+
+Integrasi:
+Cinta diri dan sesama, kemitraan pembelajaran, dan pembelajaran yang inklusif.
+
+TAHAP 5: PRAKTIK DAN AKSI NYATA
+
+Tujuan:
+Menerapkan pengetahuan untuk menghasilkan keterampilan, produk, atau solusi.
+
+Fitur:
+- Demonstrasi.
+- Eksperimen.
+- Praktik.
+- Proyek.
+- Karya.
+- Aksi lingkungan jika relevan.
+- Pengumpulan bukti.
+- Penilaian berbasis rubrik.
+
+Integrasi:
+Action Learning, cinta lingkungan, dan pengalaman mengaplikasi.
+
+TAHAP 6: REFLEKSI DAN ASESMEN AKHIR
+
+Tujuan:
+Memeriksa penguasaan kompetensi dan merencanakan perbaikan.
+
+Fitur:
+- Asesmen individual.
+- Refleksi.
+- Umpan balik.
+- Penilaian portofolio.
+- Evaluasi praktik.
+- Rekap kompetensi.
+- Remedial.
+- Pengayaan.
+
+Integrasi:
+Pengalaman merefleksi, prinsip berkesadaran, dan tanggung jawab atas proses belajar.
+
+Alokasi waktu setiap tahap dapat disesuaikan dengan kebutuhan dan jumlah JP.
+
+---
+
+## BAGIAN 10 — MATA PELAJARAN
+
+Sediakan:
+1. Matematika.
+2. IPAS.
+3. Bahasa Indonesia.
+4. Pendidikan Pancasila.
+5. SBdP/Seni, dengan nomenklatur yang dapat disesuaikan dengan struktur kurikulum madrasah.
+
+Setiap mata pelajaran memiliki:
+- CP.
+- TP.
+- ATP.
+- Materi.
+- Pengetahuan awal.
+- Karakteristik siswa.
+- Bahan ajar.
+- Media.
+- Modul.
+- LKPD.
+- Aktivitas CIPTA Learning.
+- Pemetaan KBC.
+- Pemetaan Pembelajaran Mendalam.
+- Insersi ekoteologi jika relevan.
+- Asesmen.
+- Rubrik.
+- Praktik.
+- Proyek.
+- Portofolio.
+- Refleksi.
+- Laporan.
+
+CP, TP, ATP, dan materi harus dapat diedit sesuai sumber kurikulum yang berlaku.
+
+Jangan menganggap seluruh materi telah tersedia atau seluruh nomenklatur mata pelajaran selalu sama.
+
+---
+
+## BAGIAN 11 — GENERATOR PERANGKAT AJAR AI
+
+Buat generator otomatis dengan input:
+- Mata pelajaran.
+- Kelas.
+- Fase.
+- Semester.
+- Tahun ajaran.
+- Topik.
+- CP.
+- TP.
+- ATP.
+- Pengetahuan awal.
+- Karakteristik siswa.
+- Kebutuhan belajar.
+- Alokasi waktu.
+- Sarana.
+- Media.
+- Tujuan kompetensi akhir.
+- Topik Panca Cinta.
+- Prinsip Pembelajaran Mendalam.
+- Konteks ekoteologi.
+- Jenis asesmen.
+- Jenis dokumen.
+
+Generator dapat menghasilkan:
+1. Analisis CP.
+2. Rumusan TP.
+3. ATP.
+4. Modul ajar lengkap.
+5. Rencana pembelajaran.
+6. Bahan ajar.
+7. Media pembelajaran.
+8. LKPD.
+9. Kisi-kisi.
+10. Kartu soal.
+11. Naskah soal.
+12. Kunci jawaban.
+13. Pembahasan.
+14. Rubrik.
+15. Asesmen diagnostik.
+16. Asesmen formatif.
+17. Asesmen sumatif.
+18. Remedial.
+19. Pengayaan.
+20. Refleksi guru.
+21. Refleksi siswa.
+22. Proyek.
+23. Instrumen aksi nyata.
+24. Instrumen portofolio.
+25. Laporan kompetensi.
+
+Setiap hasil harus:
+- Mengikuti enam tahap CIPTA Learning.
+- Memuat prinsip Pembelajaran Mendalam.
+- Mengintegrasikan Panca Cinta yang relevan.
+- Memuat insersi ekoteologi apabila relevan.
+- Menghubungkan tujuan, aktivitas, bukti, dan asesmen.
+- Mencantumkan sumber jika ada klaim faktual.
+- Membedakan data resmi dan rancangan guru.
+
+Sediakan status draf AI, diedit, diperiksa, dan disetujui.
+
+Sediakan editor, penyimpanan, riwayat versi, duplikasi, dan ekspor dokumen sesuai kemampuan platform.
+
+Jangan mengklaim dokumen telah disahkan atau divalidasi hanya karena berhasil dibuat oleh AI.
+
+---
+
+## BAGIAN 12 — GENERATOR ASESMEN HINGGA 200 SOAL
+
+Buat bank soal yang mendukung pembuatan paket berisi 1–200 butir.
+
+Bentuk soal:
+- Pilihan ganda.
+- Pilihan ganda kompleks.
+- Benar/salah.
+- Menjodohkan.
+- Isian singkat.
+- Uraian.
+- Soal berbasis gambar.
+- Soal kontekstual.
+- Tugas praktik.
+- Penilaian produk.
+
+Setiap soal memiliki:
+- ID unik.
+- Mata pelajaran.
+- Topik.
+- TP.
+- Indikator.
+- Bentuk soal.
+- Tingkat kesulitan.
+- Stimulus bila relevan.
+- Pilihan jawaban bila diperlukan.
+- Kunci.
+- Pembahasan.
+- Skor.
+- Sumber bila relevan.
+- Status pemeriksaan.
+
+Generator harus mendukung:
+- Kisi-kisi.
+- Pembuatan beberapa bentuk soal dalam satu paket.
+- Deteksi duplikasi.
+- Penyuntingan.
+- Pengacakan.
+- Paket ujian.
+- Timer.
+- Autosave.
+- Penilaian otomatis untuk soal objektif.
+- Penilaian manual untuk uraian dan praktik.
+- Rubrik.
+- Analisis hasil.
+- Remedial.
+- Pengayaan.
+- Ekspor.
+
+AI tidak boleh menyatakan soal valid secara empiris tanpa data uji yang mendukung.
+
+Kunci jawaban asesmen aktif harus terlindungi dari akses siswa.
+
+---
+
+## BAGIAN 13 — STUDIO GAME DAN MEDIA INTERAKTIF
+
+Sediakan:
+- Kuis.
+- Permainan kelompok.
+- Permainan individual.
+- Misi.
+- Level.
+- Kartu tantangan.
+- Simulasi.
+- Eksperimen.
+- Papan skor.
+- Presentasi.
+- Aktivitas refleksi.
+- Tantangan aksi nyata.
+
+Setiap permainan memiliki tujuan, aturan, instruksi, kondisi penyelesaian, dan umpan balik.
+
+Integrasikan:
+- Compassion agar permainan aman dan menghargai siswa.
+- Interactive agar siswa terlibat aktif.
+- Personalized agar tingkat tantangan sesuai.
+- Technology agar media membantu pemahaman.
+- Action Learning agar permainan dapat berlanjut menuju penerapan.
+
+Jangan menjadikan kecepatan atau skor permainan sebagai satu-satunya indikator kompetensi.
+
+---
+
+## BAGIAN 14 — BUDAYA MADRASAH BERBASIS CINTA DAN EKOTEOLOGI
+
+Buat menu khusus Budaya Madrasah.
+
+Fitur:
+- Kalender kegiatan.
+- Pembiasaan harian.
+- Program cinta lingkungan.
+- Proyek kebersihan.
+- Penghematan air dan energi.
+- Pengurangan sampah.
+- Perawatan tanaman.
+- Gotong royong.
+- Kegiatan refleksi.
+- Pelibatan keluarga.
+- Dokumentasi kegiatan.
+- Rekap partisipasi.
+- Evaluasi hasil.
+- Rencana tindak lanjut.
+
+Hubungkan kegiatan dengan Panca Cinta dan tujuan pendidikan.
+
+Sediakan mekanisme pencatatan:
+- Penanggung jawab.
+- Peserta.
+- Waktu.
+- Tujuan.
+- Indikator.
+- Bukti kegiatan.
+- Hasil yang diukur.
+- Refleksi.
+- Tindak lanjut.
+
+Jangan mengklaim perubahan perilaku atau dampak lingkungan tanpa bukti yang memadai.
+
+---
+
+## BAGIAN 15 — PORTOFOLIO DAN KOMPETENSI AKHIR
+
+Buat tangga penguasaan:
+1. Memahami konsep.
+2. Menerapkan konsep.
+3. Mempraktikkan keterampilan.
+4. Menghasilkan karya atau solusi.
+5. Melaksanakan aksi nyata.
+6. Merefleksikan proses dan dampak.
+
+Sediakan:
+- Bukti belajar.
+- Foto karya.
+- Dokumen.
+- Hasil eksperimen.
+- Rekaman praktik jika diizinkan.
+- Presentasi.
+- Jurnal.
+- Rubrik.
+- Umpan balik.
+- Refleksi.
+
+Setiap bukti dikaitkan dengan tujuan pembelajaran dan kompetensi yang relevan.
+
+Guru harus dapat memeriksa dan menyetujui bukti.
+
+Jangan menyimpulkan kompetensi hanya dari kehadiran, penyelesaian halaman, atau skor pilihan ganda.
+
+---
+
+## BAGIAN 16 — DIFERENSIASI, REMEDIAL, DAN PENGAYAAN
+
+Sediakan jalur belajar fleksibel berdasarkan data aktual.
+
+Jalur dukungan:
+- Model konkret.
+- Visualisasi.
+- Petunjuk bertahap.
+- Contoh tambahan.
+- Pendampingan.
+
+Jalur sesuai target:
+- Latihan terstruktur.
+- Masalah kontekstual.
+- Diskusi strategi.
+- Penjelasan mandiri.
+
+Jalur pengayaan:
+- Masalah multi-langkah.
+- Penalaran.
+- Pembuatan soal.
+- Proyek.
+- Eksperimen.
+- Karya.
+- Presentasi.
+
+Sistem boleh memberikan rekomendasi berbasis asesmen, tetapi guru tetap memutuskan tindak lanjut.
+
+Jangan memberi label permanen kepada siswa.
+
+---
+
+## BAGIAN 17 — DASHBOARD DAN LAPORAN
+
+Dashboard admin:
+- Pengguna.
+- Kelas.
+- Tahun ajaran.
+- Aktivitas.
+- Status integrasi.
+- Data penggunaan.
+- Status sistem.
+
+Dashboard guru:
+- Materi.
+- Modul.
+- Asesmen.
+- Tugas.
+- Hasil belajar.
+- Progres kompetensi.
+- Portofolio.
+- Remedial.
+- Pengayaan.
+- Kegiatan KBC.
+- Proyek ekoteologi.
+
+Dashboard siswa:
+- Materi aktif.
+- Misi.
+- Tugas.
+- Progres.
+- Umpan balik.
+- Portofolio.
+- Refleksi.
+- Aksi nyata.
+
+Laporan:
+- Nilai.
+- Pemetaan TP.
+- Perkembangan kompetensi.
+- Hasil rubrik.
+- Portofolio.
+- Kegiatan budaya madrasah.
+- Hasil proyek.
+- Analisis kebutuhan belajar.
+- Rekap per kelas.
+
+Gunakan data aktual. Jangan membuat angka statistik fiktif.
+
+Sediakan ekspor DOCX, PDF, dan XLSX jika benar-benar didukung.
+
+---
+
+## BAGIAN 18 — SUMBER RESMI DAN VALIDITAS DATA
+
+Buat repositori dokumen yang dapat dikelola admin.
+
+Setiap sumber memiliki:
+- Judul.
+- Penerbit.
+- Nomor dokumen jika tersedia.
+- Tahun.
+- URL.
+- Mata pelajaran.
+- Fase.
+- Bagian relevan.
+- Tanggal pemeriksaan.
+- Status verifikasi.
+
+Acuan awal yang harus diperiksa:
+1. Keputusan Direktur Jenderal Pendidikan Islam Nomor 6077 Tahun 2025 tentang Panduan Kurikulum Berbasis Cinta.
+2. Panduan Pembelajaran Mendalam Kemendikdasmen edisi revisi 2025 dan sumber resmi implementasi Kemenag yang tersedia.
+3. Dokumen CP resmi yang berlaku untuk mata pelajaran dan fase terkait.
+4. Dokumen kurikulum dan ATP MIN 1 Paser yang disediakan oleh madrasah.
+5. Pedoman resmi ekoteologi atau program lingkungan Kemenag yang relevan dan dapat diverifikasi.
+
+Bedakan:
+- Fakta sumber resmi.
+- Input guru.
+- Draf AI.
+- Interpretasi.
+- Rancangan aktivitas.
+- Hasil pengukuran aktual.
+
+Jangan mengarang nomor regulasi, CP, referensi, kutipan, data statistik, atau tautan.
+
+Jika sumber tidak tersedia, tandai bagian tersebut untuk verifikasi.
+
+---
+
+## BAGIAN 19 — TEKNOLOGI DAN DATABASE
+
+Gunakan arsitektur yang sesuai dengan platform pilihan.
+
+Rekomendasi:
+- Frontend React dan TypeScript jika didukung.
+- Backend API server-side.
+- Supabase PostgreSQL atau database terkelola setara.
+- Autentikasi dan otorisasi yang aman.
+- Penyimpanan file privat.
+- API AI melalui backend.
+- GitHub untuk pengelolaan source code jika tersedia.
+- Vercel atau hosting kompatibel jika diperlukan.
+
+Buat tabel terstruktur untuk:
+- profiles.
+- roles.
+- academic_years.
+- classes.
+- students.
+- class_members.
+- subjects.
+- curriculum_sources.
+- learning_outcomes.
+- learning_objectives.
+- learning_sequences.
+- modules.
+- module_stages.
+- learning_activities.
+- learning_resources.
+- question_bank.
+- question_options.
+- assessments.
+- assessment_items.
+- assessment_attempts.
+- student_responses.
+- rubrics.
+- rubric_scores.
+- assignments.
+- submissions.
+- portfolios.
+- reflections.
+- competency_records.
+- kbc_mappings.
+- deep_learning_mappings.
+- eco_theology_projects.
+- school_culture_activities.
+- ai_generation_jobs.
+- document_versions.
+- notifications.
+- audit_logs.
+
+Buat relasi, batasan integritas, indeks, timestamp, dan status sesuai kebutuhan.
+
+Jangan menyimpan seluruh sistem dalam satu objek tanpa struktur yang memadai.
+
+Jika platform menyediakan database bawaan yang setara, gunakan layanan tersebut dan dokumentasikan implementasinya.
+
+---
+
+## BAGIAN 20 — KEAMANAN DAN PRIVASI
+
+Terapkan:
+- Hak akses berbasis peran.
+- Validasi input.
+- Perlindungan akses lintas kelas.
+- Pembatasan percobaan login.
+- Perlindungan kunci jawaban.
+- Penyimpanan kredensial yang aman.
+- Audit aktivitas.
+- Pembatasan akses berkas.
+- Pencadangan.
+- Pemulihan.
+- Kebijakan retensi data.
+
+Jika menggunakan Supabase, aktifkan dan uji Row Level Security.
+
+Jangan mengekspos API key atau service-role key pada frontend.
+
+Lindungi data siswa, nilai, dan portofolio.
+
+Jangan mengirim foto atau video siswa ke AI eksternal tanpa kebutuhan, izin, dan pengaturan privasi yang sesuai.
+
+---
+
+## BAGIAN 21 — PENGUJIAN DAN KRITERIA PENERIMAAN
+
+Pastikan:
+1. Admin, guru, dan siswa memiliki hak akses berbeda.
+2. Data siswa dapat diimpor dan divalidasi.
+3. Kode kelas dan PIN berfungsi.
+4. Materi dapat dibuat dan disimpan.
+5. Enam tahap CIPTA Learning dapat digunakan.
+6. KBC dan Panca Cinta dapat dipetakan pada modul.
+7. Pembelajaran Mendalam muncul pada desain pengalaman belajar.
+8. Ekoteologi dapat diinsersikan pada materi dan budaya madrasah.
+9. Generator perangkat ajar menyimpan hasil.
+10. Generator asesmen mendukung hingga 200 soal.
+11. Kunci jawaban terlindungi.
+12. Portofolio dan rubrik berfungsi.
+13. Laporan menghitung data aktual.
+14. Hak akses database diuji.
+15. Aplikasi berfungsi pada HP dan desktop.
+16. API gagal ditangani dengan baik.
+17. Data demo diberi label.
+18. Kredensial tidak terekspos.
+19. Dokumentasi tersedia.
+
+Lakukan unit test, integration test, dan end-to-end test sesuai kemampuan platform.
+
+Jangan menyatakan fitur lolos pengujian jika belum benar-benar diuji.
+
+---
+
+## BAGIAN 22 — TAHAP PENGEMBANGAN
+
+TAHAP 1:
+Fondasi aplikasi, identitas, autentikasi, peran, database, dan data siswa.
+
+TAHAP 2:
+Mata pelajaran, sumber kurikulum, dan struktur enam tahap CIPTA Learning.
+
+TAHAP 3:
+Pemetaan KBC, Panca Cinta, Pembelajaran Mendalam, dan ekoteologi.
+
+TAHAP 4:
+Generator perangkat ajar dan editor dokumen.
+
+TAHAP 5:
+Bank soal, generator 200 soal, asesmen, rubrik, dan laporan nilai.
+
+TAHAP 6:
+Studio media, game edukatif, portofolio, dan aksi nyata.
+
+TAHAP 7:
+Budaya madrasah, proyek ekoteologi, diferensiasi, remedial, dan pengayaan.
+
+TAHAP 8:
+Analitik, keamanan lanjutan, pengujian, dokumentasi, dan deployment.
+
+Selesaikan dan uji fitur inti pada setiap tahap sebelum melanjutkan ke tahap berikutnya.
+
+---
+
+## BAGIAN 23 — HASIL AKHIR
+
+Serahkan:
+1. Aplikasi web yang dapat dijalankan.
+2. Source code jika didukung platform.
+3. Database dan konfigurasi.
+4. Autentikasi serta hak akses.
+5. Integrasi CIPTA Learning.
+6. Integrasi KBC dan Panca Cinta.
+7. Integrasi Pembelajaran Mendalam.
+8. Insersi ekoteologi.
+9. Generator perangkat ajar.
+10. Generator asesmen sampai 200 soal.
+11. Media interaktif.
+12. Portofolio kompetensi.
+13. Dashboard dan laporan.
+14. Impor data siswa.
+15. Dokumentasi admin, guru, dan siswa.
+16. Petunjuk deployment.
+17. Daftar fitur yang telah diuji.
+18. Daftar integrasi yang masih memerlukan konfigurasi.
+
+Jangan mengklaim aplikasi sudah dipublikasikan sebelum deployment benar-benar berhasil.
+
+---
+
+## BAGIAN 24 — PERINTAH EKSEKUSI
+
+Mulai bangun CIPTA Learning — MIN 1 Paser sebagai aplikasi pembelajaran full-stack yang terintegrasi.
+
+Gunakan:
+- Data siswa dari DATA SISWA 6-C.pdf.
+- Kepala Madrasah Ismail, S.Ag.
+- Pengembang Dzakirul Husni, S.Pd.
+- Lima mata pelajaran yang telah ditetapkan.
+- Enam tahap CIPTA Learning.
+- Panca Cinta Kemenag.
+- Prinsip dan pengalaman belajar Pembelajaran Mendalam.
+- Insersi ekoteologi dalam pembelajaran dan budaya madrasah.
+- Generator perangkat ajar.
+- Generator asesmen hingga 200 soal.
+- Portofolio, rubrik, proyek, aksi nyata, dan refleksi.
+
+Pastikan setiap modul menghubungkan tujuan pembelajaran, pengalaman belajar, nilai cinta, penerapan yang relevan, bukti kompetensi, dan tindak lanjut.
+
+Bangun fitur yang benar-benar berfungsi, aman, dapat diuji, dan dapat dikembangkan.
+
+Mulai dari fondasi aplikasi, lanjutkan implementasi bertahap, periksa sumber, uji fitur, perbaiki kesalahan, dan dokumentasikan hasilnya.
+
+TARGET AKHIR:
+
+CIPTA Learning menjadi ekosistem pembelajaran MIN 1 Paser yang mengembangkan siswa secara utuh melalui penguasaan pengetahuan, keterampilan, karakter, kepedulian terhadap lingkungan, tanggung jawab sosial, dan aksi nyata.
+
+Siswa tidak hanya mengetahui jawaban, tetapi memahami makna, mampu menerapkan ilmu, menunjukkan keterampilan, menghasilkan karya atau solusi, serta merefleksikan manfaat tindakannya bagi diri sendiri, sesama, madrasah, dan lingkungan.
